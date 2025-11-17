@@ -4,7 +4,7 @@ import { ButtonNew } from "./ButtonNew";
 export default function CardNews() {
   const [noticias, setNoticias] = useState([]);
 
-  const obtenerNoticias = async () => {
+  const obtenerNoticias = async ( SelCategory ) => {
     try {
       const res = await fetch(
         `${API_URL}q=bitcoin&apiKey=${API_KEY}`

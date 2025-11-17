@@ -1,8 +1,10 @@
 import './App.css'
 
 //components
-import { Header } from './components/Header'
 import CardNews from './components/CardNews'
+import {Sidebar} from './components/Sidebar'
+
+
 //
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <Header/>
+      <Sidebar/>
       <div className='container'>  
         <div>
           
