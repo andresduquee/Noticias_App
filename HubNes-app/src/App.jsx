@@ -1,23 +1,17 @@
 import React, { useState } from "react";
-import { Sidebar } from "./components/Sidebar";
+import Header from "./components/header";
 import CardNews from "./components/CardNews";
-import { API_KEY, API_URL } from "./apiConfig";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
+import { API_KEY } from "./apiConfig";
 
 function App() {
   const [noticias, setNoticias] = useState([]);
 
+  // Función que se pasa al Sidebar para traer noticias
   const obtenerNoticias = async (category) => {
-    if (!category) return;
     try {
-      const url = `${API_URL}top-headlines?country=us&category=${category}&apiKey=${API_KEY}`;
-      console.log("Fetch URL:", url);
+      const url = `https://gnews.io/api/v4/top-headlines?category=${category}&lang=en&country=us&apikey=${API_KEY}`;
       const res = await fetch(url);
-      if (!res.ok) {
-        console.error("Error en la petición:", res.status);
-        setNoticias([]);
-        return;
-      }
       const data = await res.json();
       setNoticias(data.articles || []);
     } catch (error) {
@@ -28,12 +22,15 @@ function App() {
 
   return (
     <div>
-      <Sidebar onSelectCategory={obtenerNoticias} />
-      <div style={{ marginLeft: '300px', padding: '20px' }}>
+      {/* Header recibe la función para pasar al sidebar */}
+      <Header onSelectCategory={obtenerNoticias} />
+
+      {/* Contenido principal */}
+      <div className="mt-4" style={{ paddingTop: "60px", paddingLeft: "20px", paddingRight: "20px" }}>
         <CardNews noticias={noticias} />
       </div>
-      <footer><Footer/></footer>
-          
+
+      <Footer />
     </div>
   );
 }

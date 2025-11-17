@@ -44,7 +44,7 @@ export default function footer() {
 
         {/* Línea inferior */}
         <div className="text-center py-3 border-top border-secondary mt-3">
-          © {new Date().getFullYear()} Noticias Hoy - Todos los derechos reservados
+          © {new Date().getFullYear()} Noticias Hoy - Pagina con fines educativos
         </div>
       </div>
     </footer>
