@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Sidebar } from "./components/Sidebar";
 import CardNews from "./components/CardNews";
@@ -37,4 +36,3 @@ function App() {
 }
 
 export default App;
-
