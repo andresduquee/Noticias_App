@@ -13,6 +13,7 @@ function App() {
       <Header/>
       <div className='container'>  
         <div>
+          
           <CardNews/>
         </div>  
       </div>

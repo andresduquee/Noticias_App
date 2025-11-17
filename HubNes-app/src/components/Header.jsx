@@ -7,7 +7,7 @@ export const Header = () => {
         <div className="container-fluid">
           <a className="navbar-brand fw-bold fs-4" href="#">
             <span className="badge bg-primary rounded p-2 me-2">N</span>
-            NewsHub
+            Duque el visajoso
           </a>
         </div>
       </nav>
