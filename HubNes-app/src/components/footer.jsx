@@ -1,53 +1,50 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-
-export default function footer() {
+export default function Footer() {
   return (
-    <footer className="bg-dark text-white pt-4 mt-5">
+    <footer className="bg-dark text-white mt-5 pt-5 pb-3 border-top border-secondary">
       <div className="container">
-        <div className="row">
+        <div className="row mb-4">
 
-          {/* Columna 1 */}
-          <div className="col-md-4 mb-3">
-            <h5 className="text-uppercase">Noticias Hoy</h5>
-            <p>
-              Tu portal de confianza para mantenerte informado con las últimas
-              noticias nacionales e internacionales.
+          {/* About */}
+          <div className="col-md-3">
+            <div className="d-flex align-items-center gap-2 mb-3">
+              <div
+                className="bg-white text-dark fw-bold d-flex justify-content-center align-items-center rounded"
+                style={{ width: "40px", height: "40px" }}
+              >
+                H
+              </div>
+              <span className="fs-5 fw-bold">Noticias HubNews</span>
+            </div>
+
+            <p className="text-secondary small">
+              Tu fuente confiable de noticias e información actualizada.
             </p>
           </div>
-
-          {/* Columna 2 */}
-          <div className="col-md-4 mb-3">
-            <h5 className="text-uppercase">Secciones</h5>
-            <ul className="list-unstyled">
-              <li><a href="#" className="text-white text-decoration-none">Política</a></li>
-              <li><a href="#" className="text-white text-decoration-none">Economía</a></li>
-              <li><a href="#" className="text-white text-decoration-none">Deportes</a></li>
-              <li><a href="#" className="text-white text-decoration-none">Tecnología</a></li>
-            </ul>
+          <div className="col-md-3">
+            <h5 className="fw-bold mb-3">Contacto</h5>
+            <p className="text-secondary small mb-1">📧 HubNews@ciaf.edu.co</p>
+            <p className="text-secondary small mb-1">📞 +57</p>
+            <p className="text-secondary small">📍 Risaralda, Pereira</p>
           </div>
-
-          {/* Columna 3 */}
-          <div className="col-md-4 mb-3">
-            <h5 className="text-uppercase">Contacto</h5>
-            <p className="mb-1">📧 contacto@noticiashoy.com</p>
-            <p>📍 Pereira, Colombia</p>
-            <div>
-              <a href="#" className="text-white me-3 fs-5">🌐</a>
-              <a href="#" className="text-white me-3 fs-5">📘</a>
-              <a href="#" className="text-white fs-5">🐦</a>
-            </div>
-          </div>
-
         </div>
 
-        {/* Línea inferior */}
-        <div className="text-center py-3 border-top border-secondary mt-3">
-          © {new Date().getFullYear()} Noticias Hoy - Pagina con fines educativos
+        <hr className="border-secondary" />
+
+        <div className="d-flex justify-content-between text-secondary small flex-wrap">
+          <p className="mb-0">© 2025 Hubnews. Página con fines educativos.</p>
+
+          <div className="d-flex gap-2">
+            <p className="text-secondary mb-0">Creado por:</p>
+            <p className="text-secondary mb-0">Jorge Ivan -</p>
+            <p className="text-secondary mb-0">Bryan Mayo -</p>
+            <p className="text-secondary mb-0">Andres Marulanda -</p>
+            <p className="text-secondary mb-0">Andres Duque</p>
+          </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
-

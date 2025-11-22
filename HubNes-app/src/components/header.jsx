@@ -19,20 +19,25 @@ export default function Header({ onSelectCategory }) {
           fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
           fontSize: "1.8rem",
           fontWeight: 700,
+          cursor: "pointer",
         }}
+        onClick={() => onSelectCategory(null)} 
       >
         {/* Botón hamburguesa */}
         <button
           className="btn btn-dark position-absolute start-0 ms-3"
           style={{ zIndex: 1001 }}
-          onClick={toggleSidebar}
+          onClick={(e) => {
+            e.stopPropagation(); 
+            toggleSidebar();
+          }}
         >
           ☰
         </button>
-        HubNews 
+
+        HubNews
       </header>
 
-      {/* Sidebar */}
       <Sidebar
         isOpen={isOpen}
         toggleSidebar={toggleSidebar}

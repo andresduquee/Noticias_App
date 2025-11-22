@@ -1,11 +1,16 @@
 import { Icon } from "@iconify/react";
 
-export const ButtonNew = ({linkNoticia}) => {
-    return (
-        <a href={linkNoticia}><button type="button" target="__blank" className="btn btn-dark btn-floating" data-mdb-ripple-init>
-            Ver noticia
-            <Icon icon="mingcute:external-link-line" width="24" height="24" />
-        </button></a>
-        
-    )
-}
+export const ButtonNew = ({ linkNoticia }) => {
+  return (
+    <a
+      href={linkNoticia}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-outline-dark d-inline-flex align-items-center gap-2"
+      style={{ fontSize: "0.9rem" }}
+    >
+      Leer más
+      <Icon icon="mingcute:external-link-line" width="20" height="20" />
+    </a>
+  );
+};
