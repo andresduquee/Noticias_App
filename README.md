@@ -106,6 +106,8 @@ Aplicar el manejo de eventos y estados en React mediante el consumo de una API p
 
 <h3 style="font-size: 28px;">1. Página principal sin resultados</h3>
 <img width="100%" alt="Página principal sin noticias" src="https://github.com/user-attachments/assets/2e97c68a-9a03-49e6-954f-27c45ff6e8ab" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/012d3b12-20d0-45ae-8663-893b5ea05c83" />
+
 
 <p>
 En esta vista se muestra la estructura principal de la página.  
