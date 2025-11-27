@@ -2,9 +2,9 @@
 
 <p><strong>Integrantes:</strong><br>
 - Andrés Duque<br>
-- Bryan Mayo<br>
+- Bryan Alejandro Mayo<br>
 - Jorge Iván Marín<br>
-- Andrés Marulanda</p>
+- Jose Andrés Marulanda</p>
 
 <p><strong>Profesor:</strong> Germán Adolfo Franco Posada</p>
 
