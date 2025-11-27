@@ -102,4 +102,21 @@ Aplicar el manejo de eventos y estados en React mediante el consumo de una API p
   <li>Calidad del código: orden, legibilidad y estructura.</li>
   <li>Buena documentación en GitHub.</li>
 </ul>
+<img width="624" height="277" alt="image" src="https://github.com/user-attachments/assets/2425047c-f794-48bc-963f-f2437beeb05b" />
+1.	La imagen muestra una página web de noticias.
+A la izquierda hay un menú de categorías (General, Negocio, Salud, Ciencia, etc.).
+En el centro aparece el título “hub news” y un mensaje indicando que no hay noticias disponibles.
+En la parte inferior se ve el footer con secciones, contacto y derechos de autor
+<img width="624" height="271" alt="image" src="https://github.com/user-attachments/assets/385212bd-c525-498c-bb7a-05bfa336ca69" />
+2.	La imagen muestra la página Noticias, donde aparecen varias tarjetas de noticias con imagen, título, descripción y un botón para ver cada noticia completa.
+<img width="624" height="243" alt="image" src="https://github.com/user-attachments/assets/e161d9b2-9c99-4d65-b84f-d04d02fdd03c" />
+3.	La imagen muestra la sección de noticias deportivas de la página.
+Aparecen tres artículos principales, cada uno con una imagen de las diferentes noticias de 
+<img width="624" height="245" alt="image" src="https://github.com/user-attachments/assets/4dcf755d-8843-46e7-9302-291cb046c1b8" />
+4.	El botón “Leer mas” sirve para abrir la noticia completa.
+Al hacer clic, lleva al usuario a la página donde se muestra toda la información del artículo seleccionado.
+<img width="624" height="266" alt="image" src="https://github.com/user-attachments/assets/6c409e80-68a8-4b54-93e4-c5527a3da2ba" />
+5.	Luego de seleccionar ver noticia, se abre la pagina principal que indicó el usuario.
+
+
 
