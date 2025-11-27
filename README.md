@@ -161,5 +161,10 @@ Al hacer clic, el usuario es redirigido a la vista individual del artículo para
 <p>
 Después de seleccionar la opción de ver la noticia, la aplicación abre la página original o la vista completa del artículo seleccionado, mostrando todos sus detalles para el usuario.
 </p>
+<hr>
+
+<h3 style="font-size: 28px;">6. Footer</h3>
+<p>Se añadió un nuevo footer al sitio, incluyendo información de contacto, ubicación (Risaralda, Pereira) y los créditos de creación del proyecto.</p>
+<img width="1279" height="244" alt="image" src="https://github.com/user-attachments/assets/016fa6cd-2fe0-4a15-9068-c22afcd42e76" />
 
 
