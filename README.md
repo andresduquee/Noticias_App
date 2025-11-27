@@ -102,21 +102,62 @@ Aplicar el manejo de eventos y estados en React mediante el consumo de una API p
   <li>Calidad del código: orden, legibilidad y estructura.</li>
   <li>Buena documentación en GitHub.</li>
 </ul>
-<img width="624" height="277" alt="image" src="https://github.com/user-attachments/assets/2425047c-f794-48bc-963f-f2437beeb05b" />
-1.	La imagen muestra una página web de noticias.
-A la izquierda hay un menú de categorías (General, Negocio, Salud, Ciencia, etc.).
-En el centro aparece el título “hub news” y un mensaje indicando que no hay noticias disponibles.
-En la parte inferior se ve el footer con secciones, contacto y derechos de autor
-<img width="624" height="271" alt="image" src="https://github.com/user-attachments/assets/385212bd-c525-498c-bb7a-05bfa336ca69" />
-2.	La imagen muestra la página Noticias, donde aparecen varias tarjetas de noticias con imagen, título, descripción y un botón para ver cada noticia completa.
-<img width="624" height="243" alt="image" src="https://github.com/user-attachments/assets/e161d9b2-9c99-4d65-b84f-d04d02fdd03c" />
-3.	La imagen muestra la sección de noticias deportivas de la página.
-Aparecen tres artículos principales, cada uno con una imagen de las diferentes noticias de 
-<img width="624" height="245" alt="image" src="https://github.com/user-attachments/assets/4dcf755d-8843-46e7-9302-291cb046c1b8" />
-4.	El botón “Leer mas” sirve para abrir la noticia completa.
-Al hacer clic, lleva al usuario a la página donde se muestra toda la información del artículo seleccionado.
-<img width="624" height="266" alt="image" src="https://github.com/user-attachments/assets/6c409e80-68a8-4b54-93e4-c5527a3da2ba" />
-5.	Luego de seleccionar ver noticia, se abre la pagina principal que indicó el usuario.
+<h2 style="font-size: 36px;">Capturas de Pantalla y Explicación de la Página Web</h2>
 
+<h3 style="font-size: 28px;">1. Página principal sin resultados</h3>
+<img width="100%" alt="Página principal sin noticias" src="https://github.com/user-attachments/assets/2e97c68a-9a03-49e6-954f-27c45ff6e8ab" />
+
+<p>
+En esta vista se muestra la estructura principal de la página.  
+A la izquierda aparece el menú de categorías (General, Negocios, Salud, Ciencia, etc.).  
+En el centro se encuentra el título <strong>“Hub News”</strong> y un mensaje que indica que aún no hay noticias disponibles.  
+En la parte inferior se observa el footer con secciones adicionales, información de contacto y derechos de autor.
+</p>
+
+<hr>
+
+<h3 style="font-size: 28px;">2. Página de noticias con tarjetas informativas</h3>
+<img width="100%" alt="Listado de noticias" src="https://github.com/user-attachments/assets/385212bd-c525-498c-bb7a-05bfa336ca69" />
+
+<p>
+Aquí se muestra la vista donde se cargan las noticias consultadas desde la API.  
+Cada tarjeta incluye:
+</p>
+
+<ul>
+  <li>Imagen principal del artículo</li>
+  <li>Título de la noticia</li>
+  <li>Breve descripción</li>
+  <li>Botón para ver la información completa</li>
+</ul>
+
+<hr>
+
+<h3 style="font-size: 28px;">3. Noticias filtradas por categoría (Deportes)</h3>
+<img width="100%" alt="Noticias deportivas" src="https://github.com/user-attachments/assets/e161d9b2-9c99-4d65-b84f-d04d02fdd03c" />
+
+<p>
+En esta vista se muestran únicamente las noticias pertenecientes a la categoría seleccionada, en este caso: <strong>Deportes</strong>.  
+Cada tarjeta representa un artículo distinto con su imagen y contenido relacionado.
+</p>
+
+<hr>
+
+<h3 style="font-size: 28px;">4. Vista previa y acceso a la noticia completa</h3>
+<img width="100%" alt="Botón leer más" src="https://github.com/user-attachments/assets/4dcf755d-8843-46e7-9302-291cb046c1b8" />
+
+<p>
+El botón <strong>“Leer más”</strong> permite acceder a la noticia completa.  
+Al hacer clic, el usuario es redirigido a la vista individual del artículo para ver toda la información disponible.
+</p>
+
+<hr>
+
+<h3 style="font-size: 28px;">5. Página del artículo completo</h3>
+<img width="100%" alt="Artículo completo" src="https://github.com/user-attachments/assets/6c409e80-68a8-4b54-93e4-c5527a3da2ba" />
+
+<p>
+Después de seleccionar la opción de ver la noticia, la aplicación abre la página original o la vista completa del artículo seleccionado, mostrando todos sus detalles para el usuario.
+</p>
 
 
